@@ -1,16 +1,16 @@
-# todo_app
+# TAU-Flutter-workshop
+With this workshop you will learn to code your first Flutter application. We will cover the basics of mobile application design, how to navigate across screens, and consume web services to render data on the screen. We will build a To-do list application that interacts with API endpoints to create, view, edit and delete todos. At the end  of this course, you will have learned:
+* Develop your first cross-platform mobile app with Flutter
+* Understand how to design an app with Flutter and Dart
+* Consume API endpoints to render data on screens.
+* Run the app in simulators and your own devices
 
-A new Flutter project.
 
-## Getting Started
+## Design File
+[Todo app figma design file](https://www.figma.com/file/y1U2Y6XbxsR46QCa6Sdxsz/ToDos-FrontendMentor-(Community)?node-id=0%3A1)
 
-This project is a starting point for a Flutter application.
+### Mobile view
+<img width="202" alt="Screenshot 2022-11-04 at 09 14 15" src="https://user-images.githubusercontent.com/53813901/199925451-2a016fb3-835a-431a-91b8-5903ed430f7c.png">
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## API documentation
+[Todo app API documentation](https://documenter.getpostman.com/view/12219256/2s8YRqjVeF)
