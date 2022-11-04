@@ -10,7 +10,8 @@ With this workshop you will learn to code your first Flutter application. We wil
 [Todo app figma design file](https://www.figma.com/file/y1U2Y6XbxsR46QCa6Sdxsz/ToDos-FrontendMentor-(Community)?node-id=0%3A1)
 
 ### Mobile view
-<img width="202" alt="Screenshot 2022-11-04 at 09 14 15" src="https://user-images.githubusercontent.com/53813901/199925451-2a016fb3-835a-431a-91b8-5903ed430f7c.png">
+<img width="202" alt="Screenshot 2022-11-04 at 09 14 15" src="https://user-images.githubusercontent.com/48961332/199934082-c2aeb916-1e74-4e5c-a5d9-2a32ee24582a.png">![Uploading Simulator Screen Shot - iPhone 13 - 2022-11-04 at 10.00.26.png…]()
+
 
 ## API documentation
 [Todo app API documentation](https://documenter.getpostman.com/view/12219256/2s8YRqjVeF)
