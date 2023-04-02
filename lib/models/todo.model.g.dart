@@ -18,7 +18,7 @@ class TodoModelAdapter extends TypeAdapter<TodoModel> {
     };
     return TodoModel(
       content: fields[1] as String,
-      isDone: fields[3] as bool,
+      isDone: fields[2] as bool,
       id: fields[0] as String,
     );
   }
@@ -31,7 +31,7 @@ class TodoModelAdapter extends TypeAdapter<TodoModel> {
       ..write(obj.id)
       ..writeByte(1)
       ..write(obj.content)
-      ..writeByte(3)
+      ..writeByte(2)
       ..write(obj.isDone);
   }
 

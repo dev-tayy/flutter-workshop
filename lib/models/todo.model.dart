@@ -10,7 +10,7 @@ class TodoModel {
   String id;
   @HiveField(1)
   String content;
-  @HiveField(3)
+  @HiveField(2)
   bool isDone;
   TodoModel({required this.content, required this.isDone, required this.id});
 }

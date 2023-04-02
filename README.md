@@ -1,10 +1,27 @@
-# TAU-Flutter-workshop
-With this workshop you will learn to code your first Flutter application. We will cover the basics of mobile application design, how to navigate across screens, and consume web services to render data on the screen. We will build a To-do list application that interacts with API endpoints to create, view, edit and delete todos. At the end  of this course, you will have learned:
-* Develop your first cross-platform mobile app with Flutter
-* Understand how to design an app with Flutter and Dart
-* Consume API endpoints to render data on screens.
-* Run the app in simulators and your own devices
+# Demo App
 
+Demo Mobile Application.
+
+<details>
+  <summary>Architecture & code organization</summary>
+
+```sh
+.
+├── android                   # android
+├── assets                    # assets
+├── ios                       # ios
+├── lib                       # library
+│   ├── blocs                     # state mangement implementation with bloc
+│   ├── components                # components: general components found throughout the app.
+│   ├── models                    # 
+│   ├── repositories              # 
+│   ├── utils                     # shared utilities: constants, extensions, validators etc.
+│   ├── screens                   # screens & pages.
+│   └── main.dart
+└── test                      # testing
+```
+
+</details>
 
 ## Design File
 [Todo app figma design file](https://www.figma.com/file/y1U2Y6XbxsR46QCa6Sdxsz/ToDos-FrontendMentor-(Community)?node-id=0%3A1)

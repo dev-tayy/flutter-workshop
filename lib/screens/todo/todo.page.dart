@@ -194,15 +194,15 @@ class _TodoScreenState extends State<TodoScreen> {
                             physics: const BouncingScrollPhysics(),
                             itemBuilder: (context, index) {
                               return TodoListTile(
-                                title: todos[index].content,
-                                isChecked: todos[index].isDone,
+                                title: todos[index].content!,
+                                isChecked: todos[index].isDone!,
                                 onChecked: (value) {
                                   handleTap(index);
                                   if (active.contains(index)) {
                                     todoBloc.add(
                                       UpdateTodoStatusEvent(
-                                          id: todos[index].id,
-                                          isChecked: !todos[index].isDone),
+                                          id: todos[index].id!,
+                                          isChecked: !todos[index].isDone!),
                                     );
                                   }
                                 },
@@ -210,7 +210,7 @@ class _TodoScreenState extends State<TodoScreen> {
                                   handleTap(index);
                                   if (active.contains(index)) {
                                     todoBloc.add(
-                                      DeleteTodoEvent(id: todos[index].id),
+                                      DeleteTodoEvent(id: todos[index].id!),
                                     );
                                   }
                                 },
