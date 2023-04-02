@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "615193419635",
+    "project_id": "apexive-test",
+    "storage_bucket": "apexive-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615193419635:android:30e1658ada3c80e6622f06",
+        "android_client_info": {
+          "package_name": "com.example.todo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615193419635-p12fkg452ugju9gnpiajhrvm7n7ih6jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjDnpbSLwc7OwET5iTyXgEEu5qxmVC4zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615193419635-p12fkg452ugju9gnpiajhrvm7n7ih6jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
