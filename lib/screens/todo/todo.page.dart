@@ -18,8 +18,6 @@ class TodoScreen extends StatefulWidget {
 }
 
 class _TodoScreenState extends State<TodoScreen> {
-  Set active = {};
-
   late TextEditingController controller;
 
   @override
@@ -35,6 +33,7 @@ class _TodoScreenState extends State<TodoScreen> {
     super.dispose();
   }
 
+  Set active = {};
   handleTap(int index) {
     if (active.isNotEmpty) active.clear();
     active.add(index);
@@ -194,15 +193,15 @@ class _TodoScreenState extends State<TodoScreen> {
                             physics: const BouncingScrollPhysics(),
                             itemBuilder: (context, index) {
                               return TodoListTile(
-                                title: todos[index].content!,
-                                isChecked: todos[index].isDone!,
+                                title: todos[index].content,
+                                isChecked: todos[index].isDone,
                                 onChecked: (value) {
                                   handleTap(index);
                                   if (active.contains(index)) {
                                     todoBloc.add(
                                       UpdateTodoStatusEvent(
-                                          id: todos[index].id!,
-                                          isChecked: !todos[index].isDone!),
+                                          id: todos[index].id,
+                                          isChecked: !todos[index].isDone),
                                     );
                                   }
                                 },
@@ -210,7 +209,7 @@ class _TodoScreenState extends State<TodoScreen> {
                                   handleTap(index);
                                   if (active.contains(index)) {
                                     todoBloc.add(
-                                      DeleteTodoEvent(id: todos[index].id!),
+                                      DeleteTodoEvent(id: todos[index].id),
                                     );
                                   }
                                 },
